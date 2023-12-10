@@ -1,9 +1,20 @@
+body {
+    margin:0px;
+}
+
 nav {
     position: fixed;
     top: 0;
     width: 100%;
-    text-align: center;
     height: 50px;
     background-color: rgb(247, 248, 248);
     box-shadow: rgb(183, 181, 181) 0px 1px 5px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.page {
+    margin-top:50px;
 }
