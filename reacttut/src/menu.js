@@ -1,6 +1,8 @@
+import './menu.css'
+
 function Menu() {
   return (
-    <nav>This should be at the top</nav>
+    <nav>Noteworthy that this has destroyed everything</nav>
   );
 }
 
