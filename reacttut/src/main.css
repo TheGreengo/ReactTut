@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav {
@@ -25,13 +26,22 @@ a {
 }
 
 .page {
-    margin-top:50px;
+    margin-top:55px;
 }
 
 .logo {
+    font-size:larger;
+    font-weight: bolder;
+    background: -webkit-linear-gradient(45deg, #0e71f2, #038924 80%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     padding-left: 15px;
 }
 
 .choices {
     padding-right: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;
 }
