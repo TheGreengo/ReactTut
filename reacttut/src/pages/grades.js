@@ -67,7 +67,7 @@ function getGrades() {
 function Grades() {
   const thing = getGrades();
   return (
-    <div>
+    <div className="page-center">
       <div className="page">Grades Page</div>
       <GradeTable assignments={thing.assignments}/>
       <FinalGrades assignments={thing.assignments}/>

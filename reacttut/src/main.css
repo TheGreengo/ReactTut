@@ -27,6 +27,7 @@ a {
 
 .page {
     margin-top:55px;
+    margin-bottom: 30px;
 }
 
 .logo {
@@ -44,4 +45,15 @@ a {
     flex-direction: row;
     justify-content: space-between;
     width: 400px;
+}
+
+.page-center {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tabularizms {
+    border: black solid 2.5px;
 }
