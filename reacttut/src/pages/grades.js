@@ -1,4 +1,5 @@
 import GradeTable from "./helpers/gradetable";
+import FinalGrades from "./helpers/finalgrade";
 import '../main.css';
 
 function getGrades() {
@@ -69,6 +70,7 @@ function Grades() {
     <div>
       <div className="page">Grades Page</div>
       <GradeTable assignments={thing.assignments}/>
+      <FinalGrades assignments={thing.assignments}/>
     </div>
   );
 }
