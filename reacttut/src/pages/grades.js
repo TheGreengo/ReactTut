@@ -1,3 +1,6 @@
+import GradeTable from "./helpers/gradetable";
+import '../main.css';
+
 function getGrades() {
   return {
     "assignments": [
@@ -65,24 +68,7 @@ function Grades() {
   return (
     <div>
       <div className="page">Grades Page</div>
-      <table>
-        <thead>
-          <tr>
-            <th>Assignment</th>
-            <th>Grade</th>
-            <th>% of total</th>
-          </tr>
-        </thead>
-        <tbody>
-          {thing["assignments"].map(thing => (
-          <tr>
-            <td>{thing["title"]}</td>
-            <td>{thing["grade"]}</td>
-            <td>{thing["weight"]}</td>
-          </tr>
-          ))}
-        </tbody>
-      </table>
+      <GradeTable assignments={thing.assignments}/>
     </div>
   );
 }
