@@ -15,7 +15,7 @@ Bleeeeeeech
     - when you click to study, it will have side to side arrows
     - and clicking on the card will swap the side
 - assignments
-    - I 
+    - I don't even know... stuf maybe?
 - lessons
     - this also should have a side bar on the left
     - the lessons should just be a page with 
