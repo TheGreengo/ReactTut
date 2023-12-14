@@ -1,27 +1,20 @@
 import '../../main.css';
+import AssignmentRow from './assignrow';
 
+// I think we need some css grid to get the outlines right
+// This also needs to have keys implemented for the assignment rows
 function GradeTable({assignments}) {
     return (
-        <table className="tabularizms">
-            <thead className="tabularizms">
-                <tr className="tabularizms">
-                    <th className="tabularizms">Assignment</th>
-                    <th className="tabularizms">Grade</th>
-                    <th className="tabularizms">% of total</th>
-                </tr>
-            </thead>
-            <tbody className="tabularizms">
-                { 
-                assignments.map(thing => (
-                <tr className="tabularizms">
-                    <td className="tabularizms">{thing["title"]}</td>
-                    <td className="tabularizms">{thing["grade"]}</td>
-                    <td className="tabularizms">{thing["weight"]}</td>
-                </tr>
-                ))
-                }
-            </tbody>
-      </table>
+        <div className="tabularizms row">
+            <div className="head row-first">Assignment</div>
+            <div className="head row-first">Grade</div>
+            <div className="head">% of total</div>
+            { 
+            assignments.map(thing => (
+                <AssignmentRow thing={thing}/>
+            ))
+            }
+        </div>
     );
 }
 
