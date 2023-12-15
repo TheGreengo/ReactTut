@@ -27,7 +27,7 @@ a {
 
 .page {
     margin-top:55px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .logo {
@@ -83,4 +83,12 @@ a {
     padding-top: 2px;
     padding-bottom: 2px;
     border-top: black solid 2px;
+}
+
+.final {
+    border-top: black solid 2px;
+    width:100%;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
 }
