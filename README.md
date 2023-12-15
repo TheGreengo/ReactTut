@@ -3,8 +3,7 @@ Bleeeeeeech
 
 # Plan
 - grades
-    - show a grid with assignment | grade | % of total
-    - a total grade at the bottom with the letter grade
+    - if an assignment is clicked, there should open up a dropdown w/ deets
     - a rubric beneath which shows the divisions of the letter grades
 - flashcards
     - there should be a bar on the left to select which deck

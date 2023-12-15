@@ -1,5 +1,7 @@
 import '../../main.css'
 
+let deets = false;
+
 function AssignmentRow({ thing }) {
     return (
         <>
