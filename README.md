@@ -1,5 +1,5 @@
 # ReactTut
-Bleeeeeeech
+Just to learn React a little bit, I'm going to make a fake little student portal applet thing. 
 
 # Plan
 - grades

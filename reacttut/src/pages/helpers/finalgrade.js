@@ -10,7 +10,7 @@ function getFinal(assignments) {
 
 function FinalGrades({ assignments }) {
     return (
-        <div className="final">Final Score: {getFinal(assignments)}%</div>
+        <div className="final">Final Score: {getFinal(assignments).toFixed(2)}%</div>
     );
 }
 
