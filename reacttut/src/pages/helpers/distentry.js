@@ -1,10 +1,10 @@
 function DistEntry({ thang }) {
     return (
-        <div>
-            <div></div>
-            <div>{thang.top}</div>
-            <div>{thang.letter}</div>
-            <div>|</div>
+        <div className="chunk">
+            <div className="chunkling"></div>
+            <div className="chunkling">{thang.top}</div>
+            <div className="chunkling">{thang.letter}</div>
+            <div className="chunkling">|</div>
         </div>
     );
 }

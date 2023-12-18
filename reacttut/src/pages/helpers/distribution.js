@@ -21,7 +21,7 @@ function Distribution() {
     const grades = getDist();
 
     return (
-        <div>
+        <div className="dist">
             {
                 grades.map(thing => (
                     (

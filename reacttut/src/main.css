@@ -101,3 +101,21 @@ a {
     grid-column-start: 1;
     grid-column-end: 4;
 }
+
+.dist {
+    padding: 5px;
+    border: lightslategray solid 2px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.chunk {
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+}
+
+.chunkling { 
+    width: 22px;
+}
