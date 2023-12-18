@@ -3,7 +3,6 @@ Just to learn React a little bit, I'm going to make a fake little student portal
 
 # Plan
 - grades
-    - if an assignment is clicked, there should open up a dropdown w/ deets
     - a rubric beneath which shows the divisions of the letter grades
 - flashcards
     - there should be a bar on the left to select which deck

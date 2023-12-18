@@ -1,5 +1,6 @@
 import GradeTable from "./helpers/gradetable";
 import '../main.css';
+import Distribution from "./helpers/distribution";
 
 function getGrades() {
   return {
@@ -80,6 +81,7 @@ function Grades() {
     <div className="page-center">
       <div className="page">Grades Page</div>
       <GradeTable assignments={thing.assignments}/>
+      <Distribution/>
     </div>
   );
 }
