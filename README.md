@@ -11,7 +11,14 @@ Just to learn React a little bit, I'm going to make a fake little student portal
     - when you click to study, it will have side to side arrows
     - and clicking on the card will swap the side
 - assignments
-    - I don't even know... stuf maybe?
+    - there should be submissions and quizes
+    - I'm not sure if there should be a middle thing or side thing
+    - quizes should have a start page
+    - and then following pages with multiple pages or response sections
+    - or even submissions
+    - then they should finish with a submit thing
+    - submission pages should have a description, then a submission part
+    - after submissions 
 - lessons
     - this also should have a side bar on the left
     - the lessons should just be a page with 
