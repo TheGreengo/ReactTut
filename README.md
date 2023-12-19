@@ -2,8 +2,6 @@
 Just to learn React a little bit, I'm going to make a fake little student portal applet thing. 
 
 # Plan
-- grades
-    - remove the '|' and '100' from the rubric
 - flashcards
     - there should be a bar on the left to select which deck
     - on the right it should show the current cards

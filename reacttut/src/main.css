@@ -103,16 +103,19 @@ a {
 }
 
 .dist {
-    padding: 5px;
-    border: lightslategray solid 2px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: lightslategray;
+    color: white;
     margin-top: 20px;
     display: flex;
     flex-direction: row;
+    box-shadow: grey 0px 0px 10px;
 }
 
 .chunk {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-rows: 50% 50%;
     text-align: center;
 }
 
