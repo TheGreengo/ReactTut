@@ -122,3 +122,20 @@ a {
 .chunkling { 
     width: 22px;
 }
+
+.lefty-righty {
+    margin-top: 47px;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    height: 100%;
+    width: 100%;
+}
+
+.lefty {
+    background-color: #038924;
+    color: white;
+}
+.righty {
+    background-color: #341cea;
+    color: white;
+}

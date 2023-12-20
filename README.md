@@ -3,13 +3,15 @@ Just to learn React a little bit, I'm going to make a fake little student portal
 
 # Plan
 - flashcards
-    - there should be a bar on the left to select which deck
-    - on the right it should show the current cards
+    - the page should start with a "no card selected" page
+    - clicking on a deck in the left bar should display the cards in the deck on the right
+    - when entering study mode, the left bar should disappear
     - with a button on the top to study
     - each card should show the front and back
     - and have a checkbox to be included
     - when you click to study, it will have side to side arrows
     - and clicking on the card will swap the side
+    - learn how to make a fancy flipping animation
 - assignments
     - there should be submissions and quizes
     - I'm not sure if there should be a middle thing or side thing
