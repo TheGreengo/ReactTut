@@ -4,10 +4,10 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './main.css';
 import MenuBase from './menubase'
 import Home from './home'
-import Assignments from './pages/assignments'
-import Flashcards from './pages/flashcards'
-import Grades from './pages/grades'
-import Lessons from './pages/lessons'
+import Assignments from './pages/assignments/assignments'
+import Flashcards from './pages/flashcards/flashcards'
+import Grades from './pages/grades/grades'
+import Lessons from './pages/lessons/lessons'
 
 export default function App() {
   return (
