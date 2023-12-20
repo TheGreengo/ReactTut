@@ -1,6 +1,6 @@
-import GradeTable from "./helpers/gradetable";
-import '../main.css';
-import Distribution from "./helpers/distribution";
+import GradeTable from "./gradetable";
+import '../../main.css';
+import Distribution from "./distribution";
 
 function getGrades() {
   return {
@@ -79,7 +79,7 @@ function Grades() {
   const thing = getGrades();
   return (
     <div className="page-center">
-      <div className="page">Grades Page</div>
+      <div className="page">Grades</div>
       <GradeTable assignments={thing.assignments}/>
       <Distribution/>
     </div>
