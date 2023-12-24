@@ -74,7 +74,7 @@ function getCards() {
 
 function Flashcards() {
   const cards = getCards();
-  let isFlash = false;
+  // let isFlash = false;
   return (
     <div className="lefty-righty">
       <div className="lefty">

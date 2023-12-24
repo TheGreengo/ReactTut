@@ -132,6 +132,7 @@ a {
 }
 
 .lefty {
+    height: 100%;
     background-color: #038924;
     color: white;
 }
