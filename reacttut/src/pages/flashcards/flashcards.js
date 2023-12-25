@@ -1,3 +1,6 @@
+import '../../main.css'
+import { React, useState } from 'react'
+
 function getCards() {
   return [
     {
@@ -74,7 +77,19 @@ function getCards() {
 
 function Flashcards() {
   const cards = getCards();
-  // let isFlash = false;
+  let [isFlash, toggle] = useState(0);
+  let thingone = "This is the way"
+  let thingtwo = "No this is"
+  isFlash = false;
+  toggle = () => { isFlash = !isFlash; console.log("pressed"); }
+  if (!isFlash) {
+    return (
+      <>
+      {isFlash & <div className="thing" onClick={toggle}>{thingone}</div>}
+      {!isFlash & <div className="thing" onClick={toggle}>{thingtwo}</div>}
+      </>
+    );
+  }
   return (
     <div className="lefty-righty">
       <div className="lefty">
