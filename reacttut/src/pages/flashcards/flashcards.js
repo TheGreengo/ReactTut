@@ -82,17 +82,22 @@ function Flashcards() {
 
   const [isFlash, flipState] = useState(false);
 
-  const toggle = () => {
+  const toggle = (thing) => {
+    console.log(thing);
     flipState(isFlash => !isFlash);
   };
   
   return (
     <>
       <div className='lefty-righty'></div>
-      {/* Conditional rendering based on state */}
-      {isFlash ? <ListSelect /> : <StudyMode />}
-      {/* Button to toggle between Widget1 and Widget2 */}
-      <button onClick={toggle}>Toggle Widget</button>
+      {isFlash ? <ListSelect decks={cards} /> : <StudyMode deck={cards[0]} />}
+      {
+        cards.map(
+          card => (
+            (<button key={card.title} onClick={() => {toggle("oi vey");}}>{card.title}</button>)
+          )
+        )
+      }
     </>
   );
 }

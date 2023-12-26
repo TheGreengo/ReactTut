@@ -1,4 +1,4 @@
-function ListSelect() {
+function ListSelect( { decks } ) {
     return (
         <h1>List select Mode</h1>
     );

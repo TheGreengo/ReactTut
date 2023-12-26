@@ -1,6 +1,6 @@
-function StudyMode() {
+function StudyMode( { deck } ) {
     return (
-        <h1>Study Mode</h1>
+        <h1>Study Mode for {deck.title}</h1>
     );
 }
 
