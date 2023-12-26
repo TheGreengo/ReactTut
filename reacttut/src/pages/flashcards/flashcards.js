@@ -1,4 +1,6 @@
 import '../../main.css'
+import ListSelect from './listselect';
+import StudyMode from './studymode';
 import { React, useState } from 'react'
 
 function getCards() {
@@ -77,32 +79,21 @@ function getCards() {
 
 function Flashcards() {
   const cards = getCards();
-  let [isFlash, toggle] = useState(0);
-  let thingone = "This is the way"
-  let thingtwo = "No this is"
-  isFlash = false;
-  toggle = () => { isFlash = !isFlash; console.log("pressed"); }
-  if (!isFlash) {
-    return (
-      <>
-      {isFlash & <div className="thing" onClick={toggle}>{thingone}</div>}
-      {!isFlash & <div className="thing" onClick={toggle}>{thingtwo}</div>}
-      </>
-    );
-  }
+
+  const [isFlash, flipState] = useState(false);
+
+  const toggle = () => {
+    flipState(isFlash => !isFlash);
+  };
+  
   return (
-    <div className="lefty-righty">
-      <div className="lefty">
-        {
-          cards.map(thing => (
-            <div>{thing.title}</div>
-          ))
-        }
-      </div>
-      <div className="righty">
-        Lolz
-      </div>
-    </div>
+    <>
+      <div className='lefty-righty'></div>
+      {/* Conditional rendering based on state */}
+      {isFlash ? <ListSelect /> : <StudyMode />}
+      {/* Button to toggle between Widget1 and Widget2 */}
+      <button onClick={toggle}>Toggle Widget</button>
+    </>
   );
 }
   
