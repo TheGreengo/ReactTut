@@ -89,13 +89,12 @@ function Flashcards() {
 
   const setDeck = (thing) => {
     setCurr(curr = thing);
-    toggle();
   };
   
   return (
     <>
       <div className='lefty-righty'></div>
-      { !isFlash ? <ListSelect decks={cards} thing={setDeck} thang={curr} /> : <StudyMode deck={cards[curr]} thing={setDeck} thang={curr} />}
+      { !isFlash ? <ListSelect decks={cards} thing={setDeck} thang={curr} theng={toggle}/> : <StudyMode deck={cards[curr]} thing={toggle} />}
     </>
   );
 }
