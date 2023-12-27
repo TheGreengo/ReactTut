@@ -80,24 +80,16 @@ function getCards() {
 function Flashcards() {
   const cards = getCards();
 
-  const [isFlash, flipState] = useState(false);
+  let [isFlash, flipState] = useState(-1);
 
   const toggle = (thing) => {
-    console.log(thing);
-    flipState(isFlash => !isFlash);
+    flipState(isFlash = thing);
   };
   
   return (
     <>
       <div className='lefty-righty'></div>
-      {isFlash ? <ListSelect decks={cards} /> : <StudyMode deck={cards[0]} />}
-      {
-        cards.map(
-          card => (
-            (<button key={card.title} onClick={() => {toggle("oi vey");}}>{card.title}</button>)
-          )
-        )
-      }
+      {isFlash == -1 ? <ListSelect decks={cards} thing={toggle} /> : <StudyMode deck={cards[isFlash]} thing={toggle} />}
     </>
   );
 }

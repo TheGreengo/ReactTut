@@ -1,6 +1,15 @@
-function ListSelect( { decks } ) {
+function ListSelect({ decks, thing }) {
     return (
-        <h1>List select Mode</h1>
+        <>
+            <h1>Pick a list to start studying</h1>
+            {
+                decks.map(
+                    (deck, index) => (
+                        (<button key={index} onClick={() => {thing(index);}}>{deck.title}</button>)
+                    )
+                )
+            }
+        </>
     );
 }
 
