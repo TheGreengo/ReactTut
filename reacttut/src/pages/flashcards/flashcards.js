@@ -89,7 +89,7 @@ function Flashcards() {
   return (
     <>
       <div className='lefty-righty'></div>
-      {isFlash == -1 ? <ListSelect decks={cards} thing={toggle} /> : <StudyMode deck={cards[isFlash]} thing={toggle} />}
+      {isFlash === -1 ? <ListSelect decks={cards} thing={toggle} /> : <StudyMode deck={cards[isFlash]} thing={toggle} />}
     </>
   );
 }
