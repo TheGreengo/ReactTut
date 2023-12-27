@@ -1,8 +1,8 @@
-function StudyMode( { deck, thing } ) {
+function StudyMode( { deck, thing, thang } ) {
     return (
         <>
             <h1>Study Mode for {deck.title}</h1>
-            <button onClick={() => {thing(-1)}}>Hello</button>
+            <button onClick={() => {thing(thang)}}>Exit</button>
         </>
     );
 }
