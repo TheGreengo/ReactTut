@@ -6,21 +6,25 @@ import { React, useState } from 'react'
 function getCards() {
   return [
     {
+      "id": 1,
       "title": "Math",
       "cards": [
         {
+          "id": 11,
           "front": "Math 1 front",
           "back": "Math 1 back",
           "last": 1703041016865,
-          "starred": false
+          "starred": true
         },
         {
+          "id": 12,
           "front": "Math 2 front",
           "back": "Math 2 back",
           "last": 1703041016865,
           "starred": false
         },
         {
+          "id": 13,
           "front": "Math 3 front",
           "back": "Math 3 back",
           "last": 1703041016865,
@@ -29,21 +33,25 @@ function getCards() {
       ]
     },
     {
+      "id": 2,
       "title": "C++",
       "cards": [
         {
+          "id": 14,
           "front": "C++ 1 front",
           "back": "C++ 1 back",
           "last": 1703041016865,
           "starred": false
         },
         {
+          "id": 15,
           "front": "C++ 2 front",
           "back": "C++ 2 back",
           "last": 1703041016865,
-          "starred": false
+          "starred": true
         },
         {
+          "id": 16,
           "front": "C++ 3 front",
           "back": "C++ 3 back",
           "last": 1703041016865,
@@ -52,25 +60,29 @@ function getCards() {
       ]
     },
     {
+      "id": 3,
       "title": "English",
       "cards": [
         {
+          "id": 17,
           "front": "English 1 front",
           "back": "English 1 back",
           "last": 1703041016865,
           "starred": false
         },
         {
+          "id": 18,
           "front": "English 2 front",
           "back": "English 2 back",
           "last": 1703041016865,
           "starred": false
         },
         {
+          "id": 19,
           "front": "English 3 front",
           "back": "English 3 back",
           "last": 1703041016865,
-          "starred": false
+          "starred": true
         }
       ]
     }
