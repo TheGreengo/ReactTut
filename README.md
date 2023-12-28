@@ -3,9 +3,8 @@ Just to learn React a little bit, I'm going to make a fake little student portal
 
 # Plan
 - flashcards
-    - the page should start with a "no card selected" page
+    - fix the fact that you can click study mode without selecting a deck and it blows up
     - clicking on a deck in the left bar should display the cards in the deck on the right
-    - when entering study mode, the left bar should disappear
     - with a button on the top to study
     - each card should show the front and back
     - and have a checkbox to be included
@@ -22,7 +21,6 @@ Just to learn React a little bit, I'm going to make a fake little student portal
     - submission pages should have a description, then a submission part
     - after submissions 
 - lessons
-    - this also should have a side bar on the left
     - the lessons should just be a page with 
     - special fields
     - or pictures

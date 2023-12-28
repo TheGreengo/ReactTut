@@ -1,7 +1,8 @@
 function Lessons() {
     return (
-      <div className="page-center">
-        <div className="page">Lessons Page</div>
+      <div className="lefty-righty">
+        <div className="lefty">Lessons</div>
+        <div className="righty">Lesson</div>
       </div>
     );
   }
