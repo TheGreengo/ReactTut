@@ -93,7 +93,6 @@ function Flashcards() {
   
   return (
     <>
-      <div className='lefty-righty'></div>
       { !isFlash ? <ListSelect decks={cards} thing={setDeck} thang={curr} theng={toggle}/> : <StudyMode deck={cards[curr]} thing={toggle} />}
     </>
   );
