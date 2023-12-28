@@ -13,8 +13,8 @@ function ListSelect({ decks, thing, thang, theng }) {
             </div>
             <div className="righty">
                 <h1>Pick a list to start studying</h1>
-                <div>{thang === -1 ? "No deck chosen yet" : "you've chosen to study the " + decks[thang].title + " deck."} </div>
-                <button onClick={theng}>Start Study Mode</button>
+                <div>{thang === -1 ? "You must select a deck first in order to enter study mode." : "you've chosen to study the " + decks[thang].title + " deck."} </div>
+                <button disabled={thang === -1} onClick={theng}>Start Study Mode</button>
             </div>
         </div>
     );
