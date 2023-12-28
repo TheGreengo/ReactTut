@@ -5,7 +5,7 @@ function MenuBase() {
     <>
       <nav>
         <div className="logo">
-          <Link to="/">GetSkooled</Link>
+          <Link to="/">Skool Me</Link>
         </div>
         <div className="choices">
           <Link to="/assignments">Assignments</Link>
