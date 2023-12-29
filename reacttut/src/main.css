@@ -199,3 +199,41 @@ a {
     width: 100%;
     text-align: center;
 }
+
+.deck-label {
+    width: 100%;
+    text-align: center;
+}
+
+.study-top {
+    margin-top: 47px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.exit-btn {
+    border:none;
+    background: none;
+    margin-top: -30px;
+}
+
+.study-hold {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.toggle-btn {
+    border:none;
+    background: none;
+    width: 60px;
+}
+
+.thang {
+  stroke-width: 5;
+  stroke: blue;
+  fill: blue;
+  stroke-linejoin: round;
+  stroke-linecap:round;
+}

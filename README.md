@@ -2,7 +2,6 @@
 Just to learn React a little bit, I'm going to make a fake little student portal applet thing. 
 
 1. make the study view work
-  1.1 starts with asking in order or shuffled
   1.2 then (if desired) randomizes
   1.3 shows one card at a time
   1.4 clicks between front vs. back
@@ -11,10 +10,6 @@ Just to learn React a little bit, I'm going to make a fake little student portal
 
 # Plan
 - flashcards
-    - clicking on a deck in the left bar should display the cards in the deck on the right
-    - with a button on the top to study
-    - each card should show the front and back
-    - and have a checkbox to be included
     - when you click to study, it will have side to side arrows
     - and clicking on the card will swap the side
     - learn how to make a fancy flipping animation
