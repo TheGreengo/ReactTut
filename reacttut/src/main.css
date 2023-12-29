@@ -219,6 +219,7 @@ a {
 }
 
 .study-hold {
+    min-height: calc(100vh - 52px);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -234,6 +235,14 @@ a {
   stroke-width: 5;
   stroke: blue;
   fill: blue;
+  stroke-linejoin: round;
+  stroke-linecap:round;
+}
+
+.theng {
+  stroke-width: 5;
+  stroke: none;
+  fill: none;
   stroke-linejoin: round;
   stroke-linecap:round;
 }

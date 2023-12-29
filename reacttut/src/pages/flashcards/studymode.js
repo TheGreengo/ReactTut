@@ -1,4 +1,5 @@
 import { useState } from "react";
+import FlashCard from "./flashcard";
 
 function StudyMode( { deck, thing, thang } ) {
     let [curr, setCurr] = useState(0);
@@ -12,13 +13,13 @@ function StudyMode( { deck, thing, thang } ) {
             </div>
             <div className="study-hold">
                 <button className="toggle-btn" disabled={curr === 0} onClick={() => {setCurr(curr - 1);}}>
-                    <svg className="thang">
+                    <svg className={curr === 0 ? "theng" : "thang"}>
                         <path d="M 5,25 45,5 45,45 Z"/>
                     </svg>
                 </button>
-                <div>This will be the card {curr}</div>
+                <FlashCard card={deck.cards[curr]}/>
                 <button className="toggle-btn" disabled={curr === deck.cards.length - 1} onClick={() => {setCurr(curr + 1);}}>
-                    <svg className="thang">
+                    <svg className={curr === deck.cards.length - 1 ? "theng" : "thang"}>
                         <path d="M 45,25 5,45 5,5 z"/>
                     </svg>
                 </button>
