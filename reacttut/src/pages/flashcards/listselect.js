@@ -20,7 +20,7 @@ function ListSelect({ decks, thing, thang, theng }) {
                     {thang === -1 ? "You must select a deck first in order to enter study mode." : "you've chosen to study the " + decks[thang].title + " deck."} 
                     <button disabled={thang === -1} onClick={theng}>Start Study Mode</button>
                 </div>
-                {thang !== -1 && <h1>Cards:</h1>}
+                {thang !== -1 && <h1 className="overlook">Cards:</h1>}
                 {
                     stuff.map(card =>
                         (

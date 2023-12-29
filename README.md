@@ -1,20 +1,14 @@
 # SkoolMe
 Just to learn React a little bit, I'm going to make a fake little student portal applet thing. 
 
-3. make it so that you can add or remove cards
-4. make it so that you can delete cards
-5. make it so that you can favorite cards
-  5.1 add that whole favorited thing as a field
-6. make the study view work
-  6.1 starts with asking in order or shuffled
-  6.2 then (if desired) randomizes
-  6.3 shows one card at a time
-  6.4 clicks between front vs. back
-    - 6.4.1 animation of flipping
-7. make last studied update when back is seen
-8. make everything prettier
-9. make it so that you can add decks
-10. make it so that you can delete decks
+1. make the study view work
+  1.1 starts with asking in order or shuffled
+  1.2 then (if desired) randomizes
+  1.3 shows one card at a time
+  1.4 clicks between front vs. back
+    - 1.4.1 animation of flipping
+2. make everything prettier
+
 # Plan
 - flashcards
     - clicking on a deck in the left bar should display the cards in the deck on the right
