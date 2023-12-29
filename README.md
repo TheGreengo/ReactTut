@@ -1,7 +1,6 @@
 # SkoolMe
 Just to learn React a little bit, I'm going to make a fake little student portal applet thing. 
 
-2. make the right side actually show the cards 
 3. make it so that you can add or remove cards
 4. make it so that you can delete cards
 5. make it so that you can favorite cards

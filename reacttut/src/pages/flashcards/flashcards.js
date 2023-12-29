@@ -11,7 +11,7 @@ function getCards() {
       "cards": [
         {
           "id": 11,
-          "front": "Math 1 front",
+          "front": "Math 1 front is a very very important card to learn and to memorize",
           "back": "Math 1 back",
           "last": 1703041016865,
           "starred": true
