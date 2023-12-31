@@ -1,6 +1,7 @@
 # SkoolMe
 Just to learn React and Django a little bit, I'm going to make a fake little student portal applet thing. The current plan is to make the frontend in React and backend in Django seperately first and then smoosh them together and then maybe polish the whole thing off but we'll see lolz.
 
+Current Todos:
 1. make the study view work
   1.3 shows one card at a time
   1.4 clicks between front vs. back
