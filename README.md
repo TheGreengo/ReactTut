@@ -1,4 +1,4 @@
-# SkoolMe
+# Skool Me
 Just to learn React and Django a little bit, I'm going to make a fake little student portal applet thing. The current plan is to make the frontend in React and backend in Django seperately first and then smoosh them together and then maybe polish the whole thing off but we'll see lolz.
 
 Current Todos:
@@ -10,7 +10,6 @@ Current Todos:
 
 # Plan
 - flashcards
-    - when you click to study, it will have side to side arrows
     - and clicking on the card will swap the side
     - learn how to make a fancy flipping animation
 - assignments
