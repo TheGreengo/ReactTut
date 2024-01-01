@@ -4,7 +4,11 @@ function FlashCard({ card }) {
     let [isFront, change] = useState(true);
 
     return (
-        <div>{card.front}</div>
+        <div onClick={() => {change(!isFront);}} className="study-card">
+            <div className="card-body">
+                {isFront ? card.front : card.back}
+            </div>
+        </div>
     );
 }
 
