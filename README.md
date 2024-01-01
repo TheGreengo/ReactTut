@@ -38,3 +38,5 @@ Current Todos:
 - make it so that Django app serves the React app
 - work in http requests when retrieving info into the UI components
 - start adding the CUD out of the CRUD functionality in the front end
+
+git rm --cached db.sqlite3
