@@ -2,6 +2,18 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from .models import FlashCard, FlashDeck, Student
 
+'''
+What all do we need for requests:
+ - get card
+ - set card starred
+ - get deck
+ - update card
+ - update deck
+ - add card 
+ - add deck
+ - login
+ - get grades
+'''
 
 def index(request):
     return HttpResponse("Hello, world. You're at the skoolback index.")
