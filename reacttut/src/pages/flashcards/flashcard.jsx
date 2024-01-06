@@ -5,8 +5,13 @@ function FlashCard({ card }) {
 
     return (
         <div onClick={() => {change(!isFront);}} className="study-card">
-            <div className="card-body">
-                {isFront ? card.front : card.back}
+            <div className="card-hold">
+                <div className="card-body-front">
+                    { card.front }
+                </div>
+                <div className="card-body-back">
+                    { card.back }
+                </div>
             </div>
         </div>
     );
