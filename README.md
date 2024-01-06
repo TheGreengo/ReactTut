@@ -5,7 +5,8 @@ Current Todos:
 
 # Plan for front end
 - flashcards
-    - learn how to make a fancy flipping animation
+    - make flipping happen on click
+    - center text vertically for cards
     - make study mode pretty lolz
 - assignments
     - there should be submissions and quizes
