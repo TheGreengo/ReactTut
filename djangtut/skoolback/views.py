@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse
 from .models import FlashCard, FlashDeck, Student
-from .serializers import FlashCardSerializer
+from .serializers import FlashCardSerializer, FlashDeckSerializer, StudentSerializer
 
 '''
 What all do we need for requests:
@@ -26,8 +26,10 @@ def card(request, card_id):
 
 def deck(request, deck_id):
     deck = FlashDeck.objects.get(id=deck_id)
-    return HttpResponse("Deck: %s" % deck.name)
+    ser = FlashDeckSerializer(deck, many=False)
+    return JsonResponse(ser.data)
 
 def student(request, student_id):
     student = Student.objects.get(id=student_id)
-    return HttpResponse("Student: %s" % student.f_name)
+    ser = StudentSerializer(student, many=False)
+    return JsonResponse(ser.data)
