@@ -16,6 +16,9 @@ What all do we need for requests:
  - get grades
 '''
 
+def thing(request):
+    return JsonResponse({"text": "Hello World!"})
+
 def index(request):
     return HttpResponse("Hello, world. You're at the skoolback index.")
 
