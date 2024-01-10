@@ -22,12 +22,17 @@ def thing(request):
 def index(request):
     return HttpResponse("Hello, world. You're at the skoolback index.")
 
+def getDecks(request, stud_id):
+    decks = FlashDeck.objects.filter(student_id = stud_id)
+    ser = FlashDeckSerializer(decks, many=True)
+    return JsonResponse(ser.data)
+
 def card(request, card_id):
     kyard = FlashCard.objects.get(id=card_id)
     ser = FlashCardSerializer(kyard, many=False)
     return JsonResponse(ser.data)
 
-def deck(request, deck_id):
+def getDeck(request, deck_id):
     deck = FlashDeck.objects.get(id=deck_id)
     ser = FlashDeckSerializer(deck, many=False)
     return JsonResponse(ser.data)
